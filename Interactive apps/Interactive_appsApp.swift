@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-@main
 struct Interactive_appsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CircleView()
         }
     }
 }

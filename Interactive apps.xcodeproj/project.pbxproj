@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C6B7FEAB2F3E26EF00578580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B7FEA72F3E26EF00578580 /* Assets.xcassets */; };
+		C6B7FEAC2F3E26EF00578580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7FEA82F3E26EF00578580 /* ContentView.swift */; };
+		C6B7FEAD2F3E26EF00578580 /* Interactive_appsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7FEA92F3E26EF00578580 /* Interactive_appsApp.swift */; };
+		C6B7FEB02F45E9F500578580 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7FEAF2F45E9F500578580 /* CircleView.swift */; };
+		C6B7FEB32F45EB7300578580 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7FEB22F45EB7300578580 /* Circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C6B7FE992F3E269C00578580 /* Interactive apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B7FEA72F3E26EF00578580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B7FEA82F3E26EF00578580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6B7FEA92F3E26EF00578580 /* Interactive_appsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_appsApp.swift; sourceTree = "<group>"; };
+		C6B7FEAF2F45E9F500578580 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C6B7FEB22F45EB7300578580 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C6B7FE9B2F3E269C00578580 /* Interactive apps */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Interactive apps";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C6B7FE962F3E269C00578580 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		C6B7FE902F3E269C00578580 = {
 			isa = PBXGroup;
 			children = (
-				C6B7FE9B2F3E269C00578580 /* Interactive apps */,
+				C6B7FEAA2F3E26EF00578580 /* Interactive apps */,
 				C6B7FE9A2F3E269C00578580 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,34 @@
 				C6B7FE992F3E269C00578580 /* Interactive apps.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B7FEAA2F3E26EF00578580 /* Interactive apps */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7FEA92F3E26EF00578580 /* Interactive_appsApp.swift */,
+				C6B7FEB12F45EB3A00578580 /* Mode1 */,
+				C6B7FEAE2F45E97B00578580 /* Views */,
+				C6B7FEA72F3E26EF00578580 /* Assets.xcassets */,
+				C6B7FEA82F3E26EF00578580 /* ContentView.swift */,
+			);
+			path = "Interactive apps";
+			sourceTree = "<group>";
+		};
+		C6B7FEAE2F45E97B00578580 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7FEAF2F45E9F500578580 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6B7FEB12F45EB3A00578580 /* Mode1 */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7FEB22F45EB7300578580 /* Circle.swift */,
+			);
+			path = Mode1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C6B7FE9B2F3E269C00578580 /* Interactive apps */,
 			);
 			name = "Interactive apps";
 			packageProductDependencies = (
@@ -109,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B7FEAB2F3E26EF00578580 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B7FEB02F45E9F500578580 /* CircleView.swift in Sources */,
+				C6B7FEB32F45EB7300578580 /* Circle.swift in Sources */,
+				C6B7FEAC2F3E26EF00578580 /* ContentView.swift in Sources */,
+				C6B7FEAD2F3E26EF00578580 /* Interactive_appsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,19 +6,12 @@
 //
 
 import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+ 
+@main
+struct GeometricFiguresApp: App {
+    var body: some Scene {
+        WindowGroup {
+            CircleView()
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
